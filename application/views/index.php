@@ -83,7 +83,7 @@ https://templatemo.com/tm-573-eduwell
             <h2>Belajar semudah <em>itu!</em></h2>
             <p>Widya Edu menawarkan berbagai pilihan paket belajar private kelas 1,2,3 maupun UTBK yang solutif, interaktif dan menyenangkan dengan penawaran terbaik hanya untuk Edufrens.</p><br>
             <div class="main-button-gradient">
-              <div class="scroll-to-section"><a href="#contact-section">Join Us Now!</a></div>
+              <div class="scroll-to-section"><a href="#contact-section">Bergabung Sekarang!</a></div>
             </div>
           </div>
         </div>
