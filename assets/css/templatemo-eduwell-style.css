@@ -226,11 +226,22 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219, 138, 222);
   background: linear-gradient(90deg, #00908F 0%, #05C9C4 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+
+.main-buttonn a {
+  font-size: 13px;
+  color: #fff;
+  background: linear-gradient(114.44deg, #FF8507 0%, #FF5A04 100%);
+  padding: 0px 12px;
+  display: inline-block;
+  border-radius: 20px;
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s;
@@ -785,7 +796,7 @@ section.main-banner {
 
 .main-banner .right-image::after {
   position: absolute;
-  background-image: url(../images/banner-right-dec.png);
+  /* background-image: url(../images/banner-right-dec.png); */
   width: 378px;
   height: 378px;
   content: '';
@@ -940,12 +951,12 @@ section.our-courses .naccs .menu div {
   vertical-align: middle;
   font-weight: 900;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 3px solid rgba(219, 138, 222, 0.5);
+  border: 3px solid #FFD9B5;
 }
 
 section.our-courses .naccs .menu div.active {
   color: #00908F;
-  border: 3px solid rgba(219, 138, 222, 1);
+  border: 3px solid #FF8507;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -975,7 +986,7 @@ section.our-courses ul.nacc li {
 section.our-courses ul.nacc li .left-image {
   position: absolute;
   margin-right: 50px;
-  top: 50%;
+  top: 39%;
   transform: translateY(-50%);
 }
 
@@ -986,7 +997,7 @@ section.our-courses ul.nacc li .left-image img {
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
-  background: rgb(219, 138, 222);
+  background: solid #FF8507;
   background: linear-gradient(90deg, #00908F 0%, #05C9C4 100%);
   color: #fff;
   top: 20px;
@@ -1687,7 +1698,7 @@ section.featured-product:before {
 section.featured-product:after {
   position: absolute;
   content: '';
-  background-image: url(../images/testimonials-right-dec.png);
+  /* background-image: url(../images/testimonials-right-dec.png); */
   right: 0px;
   bottom: -140px;
   width: 632px;

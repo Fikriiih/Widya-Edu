@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <title>Widya Edu - Personallized Learning</title>
+    <link href="<?= base_url('assets/'); ?>images/logo.svg" rel="icon">
 
     <!-- Bootstrap core CSS -->
 
@@ -32,7 +34,7 @@ https://templatemo.com/tm-573-eduwell
   </head>
 
 <body>
-
+<div class="w-100"> 
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
@@ -42,14 +44,15 @@ https://templatemo.com/tm-573-eduwell
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="#top" class="logo">
-                          <img src="<?=base_url('assets/') ?>images/templatemo-eduwell.png" alt="EduWell Template">
+                      <!-- <?php echo base_url('User'); ?> -->
+                          <img src="<?=base_url('assets/') ?>images/logo.png" alt="EduWell Template">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li class="scroll-to-section"><a href="#courses">Kelas</a></li>
+                          <li class="scroll-to-section"><a href="#courses">Program</a></li>
                           
-                          <li class="scroll-to-section"><a href="#services">Value</a></li>
+                          <li class="scroll-to-section"><a href="#services">Fasilitas</a></li>
                           <li class="scroll-to-section"><a href="#bank">Bank Soal</a></li>
                           <!-- <li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
@@ -59,8 +62,7 @@ https://templatemo.com/tm-573-eduwell
                                   <li><a href="contact-us.html">Contact Us</a></li>
                               </ul>
                           </li> -->
-                          <!-- <li class="scroll-to-section"><a href="#testimonials">Testimoni</a></li>  -->
-                          <li class="scroll-to-section"><a href="#contact-section">Kontak</a></li> 
+                          <li class="main-buttonn a"><a target="_blank" href="https://api.whatsapp.com/send?phone=6282282677722">Hubungi Kami</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -79,11 +81,11 @@ https://templatemo.com/tm-573-eduwell
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
-            <h5>Widya Edu Personalized Learning</h5>
-            <h2>Belajar semudah <em>itu!</em></h2>
-            <p>Widya Edu menawarkan berbagai pilihan paket belajar private kelas 1,2,3 maupun UTBK yang solutif, interaktif dan menyenangkan dengan penawaran terbaik hanya untuk Edufrens.</p><br>
+            <!-- <h5>Widya Edu Personalized Learning</h5> -->
+            <h2>Belajar semudah itu, bersama tutor  <em>Widya Edu!</em></h2>
+            <p>Bimbel privat SMA dengan tutor berkualitas dan strategi belajar sesuai dengan goals dan kebutuhanmu.</p><br>
             <div class="main-button-gradient">
-              <div class="scroll-to-section"><a href="#contact-section">Bergabung Sekarang!</a></div>
+              <div><a target="_blank" href="https://api.whatsapp.com/send?phone=6282282677722">Bergabung Sekarang!</a></div>
             </div>
           </div>
         </div>
@@ -98,15 +100,14 @@ https://templatemo.com/tm-573-eduwell
   <!-- ***** Main Banner Area End ***** -->
 
 
-
   <section class="our-courses" id="courses">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
-            <h5>KELAS KAMI</h5>
-            <h4>Apa yang Dapat Anda <em>Pelajari</em></h4>
-            <!-- <p>You just think about TemplateMo whenever you need free CSS templates for your business website</p> -->
+            <!-- <h6>OUR COURSES</h6> -->
+            <h4>Program  <em>Widya Edu</em></h4>
+            <p>Kamu bisa pilih bimbingan belajar yang sesuai dengan kebutuhanmu!</p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -115,10 +116,10 @@ https://templatemo.com/tm-573-eduwell
               <div class="row">
                 <div class="col-lg-3">
                   <div class="menu">
-                  <div class="active gradient-border"><span>Individu Privat SMA 1,2,3 Reguler </span></div>
-                    <div class="gradient-border"><span>Individu Privat SMA 3 UTBK</span></div>
-                    <div class="gradient-border"><span>Grup Privat SMA 1,2,3, Reguler 2-5 orang</span></div>
-                    <div class="gradient-border"><span>Grup Privat SMA 3 UTBK 2-5 orang</span></div>
+                    <div class="active gradient-border"><span>SMA kelas 1,2 <br> Reguler</span></div>
+                    <div class="gradient-border"><span>SMA kelas 3 <br>Reguler</span></div>
+                    <div class="gradient-border"><span>SMA kelas 3 <br>UTBK</span></div>
+                    <!-- <div class="gradient-border"><span>WordPress</span></div> -->
                   </div>
                 </div>
                 <div class="col-lg-9">
@@ -126,18 +127,20 @@ https://templatemo.com/tm-573-eduwell
                     <li class="active">
                       <div>
                         <div class="left-image">
-                          <img src="<?=base_url('assets/') ?>images/courses-01.jpg" alt="">
+                          <img src="<?=base_url('assets/') ?>images/les privat 12.png" alt="">
                           <!-- <div class="price"><h6>$128</h6></div> -->
                         </div>
                         <div class="right-content">
-                          <h4>Individu Privat SMA 1,2,3 Reguler </h4>
-                          <p>Did you know that you can visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS website</a> for latest listing of HTML templates and a variety of useful templates. 
-                          <br><br>You just need to go and visit that website right now. IF you have any suggestion or comment about this template, you can feel free to go to contact page for our email address.</p>
-                          <span>Kelas Online</span>
-                          <span>Kelas Offline</span>
-                          <span class="last-span">Kelas Group & Private</span> 
-                          <div class="main-button-gradient"> <br>
-                            <a href="contact-us.html">Beli Sekarang</a>
+                          <h4>Les Privat Kelas 1, 2 SMA</h4>
+                          <p>Tersedia online dan offline <em>(offline khusus daerah Yogyakarta)</em><br><br>Bimbel privat untuk bantu siswa mencapai goals belajar di kelas 1 atau 2 SMA seperti mengerjar pemahaman materi, latihan soal, mengerjakan PR dan tugas, persiapan ulangan harian, persiapan UTS dan UAS, perbaikan nilai untuk persiapan SNMPTN.</p>
+                          <p>Fasilitas : <br>
+                            *&nbsp;Tutor berkualitas (melalui seleksi dan development program)<br>
+                            *&nbsp;Sesi belajar 90 menit<br>
+                            *&nbsp;Bahan ajar dan evaluasi yang ter-update berdasarkan kurikulum terbaru (berupa modul materi di aplikasi dan bank soal)<br>
+                            *&nbsp;Metode personalized learning (yaitu implementasi strategi belajar berdasarkan goals belajar siswa, kemampuan siswa saat ini, dan gaya belajarnya)
+                          </p>
+                          <div class="main-button-gradient"><br>
+                            <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Beli Sekarang</a>
                           </div>
                         </div>
                       </div>
@@ -145,17 +148,21 @@ https://templatemo.com/tm-573-eduwell
                     <li>
                       <div>
                         <div class="left-image">
-                          <img src="<?=base_url('assets/') ?>images/courses-02.jpg" alt="">
+                          <img src="<?=base_url('assets/') ?>images/les privat 3.png" alt="">
                           <!-- <div class="price"><h6>$156</h6></div> -->
                         </div>
                         <div class="right-content">
-                          <h4>Individu Privat SMA 3 UTBK</h4>
-                          <p>You are not allowed to redistribute this template ZIP file on any other website without a permission from us.<br><br>There are some unethical people on this world copied and reposted our templates without any permission from us. Their Karma will hit them really hard. Yeah!</p>
-                          <span>Kelas Online</span>
-                          <span>Kelas Offline</span>
-                          <span class="last-span">Kelas Group & Private</span>
-                          <div class="main-button-gradient"> <br>
-                            <a href="contact-us.html">Beli Sekarang</a>
+                          <h4>Les Privat Kelas 3 SMA</h4>
+                          <p>Tersedia online dan offline <em>(offline khusus daerah Yogyakarta)</em></p>
+                          <p>Bimbel privat untuk bantu siswa mencapai goals belajar di kelas 3 SMA seperti mengerja pemahaman materi, latihan soal, mengerjakan PR dan tugas, persiapan ulangan harian, persiapan UTS dan UAS, perbaikan nilai untuk persiapan SNMPTN.</p>
+                          <p>Fasilitas :<br>
+                            *&nbsp;Tutor berkualitas (melalui seleksi dan development program)<br>
+                            *&nbsp;Sesi belajar 90 menit<br>
+                            *&nbsp;Bahan ajar dan evaluasi yang ter-update berdasarkan kurikulum terbaru (berupa modul materi di aplikasi dan bank soal)<br>
+                            *&nbsp;Metode personalized learning (yaitu implementasi strategi belajar berdasarkan goals belajar siswa, kemampuan siswa saat ini, dan gaya belajarnya)<br>
+                            *&nbsp;Latihan soal UTBK dan pembahasan di aplikasi</p>
+                          <div class="main-button-gradient"><br>
+                            <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Subscribe Course</a>
                           </div>
                         </div>
                       </div>
@@ -163,40 +170,26 @@ https://templatemo.com/tm-573-eduwell
                     <li>
                       <div>
                         <div class="left-image">
-                          <img src="<?=base_url('assets/') ?>images/courses-03.jpg" alt="">
+                          <img src="<?=base_url('assets/') ?>images/les privat 3 utbk.png" alt="">
                           <!-- <div class="price"><h6>$184</h6></div> -->
                         </div>
                         <div class="right-content">
-                          <h4>Grup Privat SMA 1,2,3, Reguler 2-5 orang</h4>
-                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
-                          <span>Kelas Online</span>
-                          <span>Kelas Offline</span>
-                          <span class="last-span">Kelas Group & Private</span>
+                          <h4>Les Privat UTBK 2023</h4>
+                          <p>Tersedia online dan offline <em>(offline khusus daerah Yogyakarta)</em></p>
+                          <p>Bimbel privat untuk bantu siswa LOLOS UTBK 2023. Bimbel Bimbel Privat dengan pembelajaran terstruktur mulai dengan pendalaman materi, latihan soal UTBK, hingga Tryout UTBK 2023 dengan sistem IRT.</p>
+                          <p>Fasilitas :<br>
+                            *&nbsp;Tutor berkualitas (melalui seleksi dan development program)<br>
+                            *&nbsp;Sesi belajar 90 menit<br>
+                            *&nbsp;Bahan ajar dan evaluasi yang ter-update berdasarkan kurikulum terbaru (berupa modul materi di aplikasi dan bank soal)<br>
+                            *&nbsp;Metode personalized learning (yaitu implementasi strategi belajar berdasarkan goals belajar siswa, kemampuan siswa saat ini, dan gaya belajarnya)<br>
+                            *&nbsp;Latihan soal UTBK dan pembahasan di aplikasi <br>
+                            *&nbsp;Tryout UTBK 2023 dengan sistem IRT</p>
                           <div class="main-button-gradient"> <br>
-                            <a href="contact-us.html">Beli Sekarang</a>
+                            <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Subscribe Course</a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="<?=base_url('assets/') ?>images/courses-04.jpg" alt="">
-                          <!-- <div class="price"><h6>$76</h6></div> -->
-                        </div>
-                        <div class="right-content">
-                          <h4>Grup Privat SMA 3 UTBK 2-5 orang</h4>
-                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
-                          <span>Kelas Online</span>
-                          <span>Kelas Offline</span>
-                          <span class="last-span">Kelas Group & Private</span>
-                          <div class="main-button-gradient"> <br>
-                            <a href="contact-us.html">Beli Sekarang</a>
-                          </div>
-                        </div>
-                      </div>
-                      </li>
-                    </ul>
                 </div>
               </div>
             </div>
@@ -206,13 +199,15 @@ https://templatemo.com/tm-573-eduwell
     </div>
   </section>
 
+
+
   <section class="featured-product">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h5>Fasilitas Kami</h5>
-            <h4>Fasilitas yang <em>disediakan</em></h4>
+            <h4>Keunggulan Bimbel Privat  <em>Widya Edu</em></h4>
+            <p>Apa sih bedanya privat di Widya Edu?</p>
           </div>
         </div>
         <div class="col-lg-3 align-self-center">
@@ -223,7 +218,7 @@ https://templatemo.com/tm-573-eduwell
                   <img src="assets/images/service-icon-11.png" alt="">
                 </div>
                 <h4>Tutor Berkualitas</h4>
-                <p>Tutor berkualitas (sudah ditranining dan seleksi ketat).</p><br>
+                <p>Adanya seleksi khusus, development program, serta survei saran dan kritik rutin terkait performa tutor untuk menjaga kualitas tutor.</p>
               </div>
             </div>
             <div class="col-lg-12">
@@ -231,8 +226,8 @@ https://templatemo.com/tm-573-eduwell
                 <div class="icon">
                   <img src="assets/images/service-icon-13.png" alt="">
                 </div>
-                <h4>Sesi belajar 90 menit</h4>
-                <p>Sesi belajar dalam sekali pertemuan 90 menit.</p><br><br>
+                <h4>Metode Belajar</h4>
+                <p>Metode belajar yang disesuaikan dengan kebutuhan siswa dengan personalized learning.</p><br>
               </div>
             </div>
           </div>
@@ -249,8 +244,8 @@ https://templatemo.com/tm-573-eduwell
                 <div class="icon">
                   <img src="assets/images/service-icon-12.png" alt="">
                 </div>
-                <h4>Personallized Learnin</h4>
-                <p>Memahami goals belajar, kemampuan siswa, dan gaya belajar siswa untuk menentukan strategi belajar bersama siswa.</p>
+                <h4>Fleksibel</h4>
+                <p>Pembelajaran yang fleksibel bisa atur sesuai dengan kebutuhan siswa.</p><br>
               </div>
             </div>
             <div class="col-lg-12">
@@ -258,8 +253,8 @@ https://templatemo.com/tm-573-eduwell
                 <div class="icon">
                   <img src="assets/images/service-icon-14.png" alt="">
                 </div>
-                <h4>Modul belajar diaplikasi</h4>
-                <p>Bahan ajar dan evaluasi yang terupdate (mengikuti perkembangan kurikulum pendidikan indonesia).</p>
+                <h4>Aplikasi Belajar</h4>
+                <p>Adanya aplikasi belajar yang berisi modul, latihan soal, hingga tryout UTBK khusus untuk kelas 3 SMA untuk menunjang pembelajaran privat.</p>
               </div>
             </div>
           </div>
@@ -273,11 +268,11 @@ https://templatemo.com/tm-573-eduwell
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h5>Keunggulan kami</h5>
-            <h4>keunggulan   <em>Widya Edu</em></h4>
+            <h4>Fasilitas Bimbel Privat  <em>Widya Edu</em></h4>
+            <p>Dapatkan banyak manfaat yang bisa kamu dapatkan sebagai siswa di Widya Edu!</p>
           </div>
         </div>
-        <div class="col-lg-12">
+        <div class="col-lg-12">  
           <div class="owl-service-item owl-carousel">
             <div class="item">
               <div class="service-item">
@@ -285,7 +280,7 @@ https://templatemo.com/tm-573-eduwell
                   <img src="<?=base_url('assets/') ?>images/service-icon-12.png" alt="">
                 </div>
                 <h4>Personalized Learning</h4>
-                <p>Memahami goals belajar, kemampuan siswa, dan gaya belajar siswa untuk menentukan strategi belajar bersama siswa.</p>
+                <p>Strategi belajar yang disesuaikan dengan goals, kemampuan, dan gaya belajar siswa.</p>
               </div>
             </div>
             <div class="item">
@@ -293,91 +288,28 @@ https://templatemo.com/tm-573-eduwell
                 <div class="icon">
                   <img src="<?=base_url('assets/') ?>images/service-icon-15.png" alt="">
                 </div>
-                <h4>Courses Uptodate</h4>
-                <p>mengikuti perkembangan kurikulum pendidikan indonesia.</p>
+                <h4>Sesi Belajar 90 Menit</h4>
+                <p>Sesi belajar yang fleksibel bisa menyesuaikan jadwal belajarmu, baik online maupun offline.</p>
               </div>
             </div>
              <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-16.png" alt="">
-                </div>
-                <h4>Laporan Belajar ke Orang Tua</h4>
-                <p>Laporan Belajar ke Orang Tua Siswa secara rutin dan berkala.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
                   <img src="<?=base_url('assets/') ?>images/service-icon-17.png" alt="">
                 </div>
-                <h4>Teknologi penunjang</h4>
-                <p>Teknologi penunjang yang memudahkan belajar bersama tutor.</p>
-              </div>
-            </div>
-            <!--<div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
+                <h4>Bahan Ajar dan Evaluasi</h4>
+                <p>Bahan ajar dan evaluasi yang selalu terupdate oleh tim kurikulum, mengikuti perkembangan kurikulum di Indonesia.</p>
               </div>
             </div>
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-03.png" alt="">
+                  <img src="<?=base_url('assets/') ?>images/service-icon-16.png" alt="">
                 </div>
-                <h4>Ready Target</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
+                <h4>Laporan Belajar</h4>
+                <p>Laporan belajar untuk orang tua dan siswa, berupa laporan kehadiran dan implementasi strategi belajar.</p>
               </div>
             </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?=base_url('assets/') ?>images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.</p>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -393,11 +325,14 @@ https://templatemo.com/tm-573-eduwell
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <h6>Dapatkan Bank soal sekarang!</h6>
-          <h4>Bank soal UTBK by Widya Edu</h4>
-          <p>kami menyediakan bank soal yang terupdate dan bisa membantu para siswa untuk memperdalam soal-soal UTBK.</p>
+          <h4>Dapatkan akses ke Bank Soal <em>Widya Edu</em></h4><br>
+          <h6>dengan mendaftar bimbel privat di Widya Edu.</h6>
+          <p> - Lengkap untuk kelas 1, 2, 3 SMA <br>
+              - Mapel Saintek dan Soshum <br>
+              - Terdapat bank soal khusus untuk UTBK
+          </p>
           <div class="white-button">
-            <a href="contact-us.html">Akses Bank Soal</a>
+            <a href="https://drive.google.com/drive/folders/1o3qnMEWcpTsn1f6rI6cPPoUUp1MdUTeB?usp=sharing" target="_blank">Akses Bank Soal</a>
           </div>
         </div>
       </div>
@@ -524,21 +459,22 @@ https://templatemo.com/tm-573-eduwell
                   <textarea name="message" id="message" placeholder="Your Message"></textarea>
                 </fieldset>
               </div> -->
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-gradient-button">Message</button>
-                </fieldset>
+               <!-- <div class="main-button-gradient"> <br>
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div> -->
+              <div class="main-button-gradient">
+                  <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Kirim Pesan</a>
               </div>
             </div>
           </form>
         </div>
         <div class="col-lg-12">
           <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://web.facebook.com/widyaedu?_rdc=1&_rdr" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/widyaedutech" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://id.linkedin.com/company/widyaedu" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/c/widyaedu" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/widyaedu/" target="_blank"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <div class="col-lg-12">
@@ -549,6 +485,7 @@ https://templatemo.com/tm-573-eduwell
       </div>
     </div>
   </section>
+  </div>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
