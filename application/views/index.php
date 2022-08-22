@@ -344,58 +344,34 @@ https://templatemo.com/tm-573-eduwell
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h6>Testimonials</h6>
-            <h4>What They <em>Think</em></h4>
+            <h4>Testimoni Siswa  <em>Widya Edu</em></h4>
+            <p>Banyak siswa yang sudah mendapat manfaatnya dan ini kata mereka!</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
             <div class="item">
-              <p>“just think about TemplateMo if you need free CSS templates for your website”</p>
-                <h4>Catherine Walk</h4>
-                <span>CEO &amp; Founder</span>
+              <p>“Waktu itu aku bener2 berharap banget sama Widya Edu karena aku harus belajar materi baru dari nol dalam waktu sesingkat mungkin dan ga ikut les. Ternyata bener2 tidak mengecewakan. Tutornya asik, ga ngebosenin, dan bener2 ngajarin dari nol. Terus abis jelasin materi, biasanya dikasih kuis gitu buat evaluasi. Seru sih, jadi kita kek latihan soal tapi vibesnya serasa main tebak2an. Keren bangetlah pokoknya.”</p>
+               <br><br><br><br> <h4>Saddam</h4>
+                <span>UGM - Fakultas Sejarah</span>
                 <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“think about our website first when you need free HTML templates for your website”</p>
-                <h4>David Martin</h4>
-                <span>CTO of Tech Company</span>
+              <p>“Selama belajar di Widya Edu aku merasa kebantu banget. Dari awal kelas 12 aku ikut, aku merasa kebantu banget dipelajaran yang belum aku pahami, bahkan ada materi yang diajarkan udah lebih dulu daripada yang di sekolah aku. Pokoknya Widya Edu best bgt buat siswa kelas 12 dan persiapan UTBK. ”</p>
+              <br><br><br><br> <br><br><h4>Helma</h4>
+                <span>ITB - Fakultas Ilmu dan Teknologi Kebumian</span>
                 <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“just think about our website wherever you need free templates for your website”</p>
-                <h4>Sophia Whity</h4>
-                <span>CEO and Co-Founder</span>
+              <p>“Pengalaman saya belajar bersama Widya Edu benar2 menyenangkan, disini kita belajar langsung dengan tutor yang profesional secara personal sehingga memudahkan apabila masih ada materi yang kurang dipahami. Jadwal belajar yang fleksibel juga memudahkan saya yang waktu itu masih bekerja. Tim staff yang sangat mudah dihubungi serta biaya yang terjangkau membuat saya bersyukur bertemu Widya Edu. Alhamdulillah berkat bimbel ini saya bisa lolos di pilihan pertama saya yaitu Fakultas Hukum Universitas Sebelas Maret.”</p>
+                <h4>Aggun Pramesti</h4>
+                <span>UNS - Fakultas Hukum</span>
                 <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
-                <h4>Helen Shiny</h4>
-                <span>Tech Officer</span>
-                <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
-            </div>
-            <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
-                <h4>George Soft</h4>
-                <span>Gadget Reviewer</span>
-                <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
-            </div>
-            <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
-                <h4>Andrew Hall</h4>
-                <span>Marketing Manager</span>
-                <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
-            </div>
-            <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
-                <h4>Maxi Power</h4>
-                <span>Fashion Designer</span>
-                <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
-            </div>
-            <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
-                <h4>Olivia Too</h4>
-                <span>Creative Designer</span>
+              <p>“Makasi Widya Edu udah banyak banget ngebantu aku latihan soal. Latihan soal yang ada di SBM itu actually lebih mudah dibanding tryout dan buku latihan soal SBM, tapi dari banyak tryout dan latsol dari Widya Edu itulah aku jadi lebih terbiasa mengerjakan soal2 terutama soal hots nya.”</p>
+              <br><br><br><br> <br><br><br><h4>Hawina Siti</h4>
+                <span>UI - Fakultas Kriminologi</span>
                 <img src="<?=base_url('assets/') ?>images/quote.png" alt="">
             </div>
           </div>
@@ -418,7 +394,7 @@ https://templatemo.com/tm-573-eduwell
                   <div class="icon">
                     <i class="fa fa-phone"></i>
                   </div>
-                  <h4>Phone</h4>
+                  <h4>Kontak</h4>
                   <span>0822 8267 7722</span>
                 </div>
               </div>
@@ -440,7 +416,7 @@ https://templatemo.com/tm-573-eduwell
               <div class="col-lg-12">
                 <div class="section-heading">
                   <h6>Kontak kami</h6>
-                  <h4>Say <em>Hello</em></h4>
+                  <h4>Ceritakan  <em>Kebutuhanmu</em></h4>
                   <p>Jika anda tertarik atau memerlukan bantuan kami, silahkan hubungi kami dengan link button dibawah ini.</p>
                 </div>
               </div>
