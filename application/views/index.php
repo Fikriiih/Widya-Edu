@@ -7,6 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '683407702383135');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=683407702383135&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -116,22 +133,22 @@ https://templatemo.com/tm-573-eduwell
               <div class="row">
                 <div class="col-lg-3">
                   <div class="menu">
-                    <div class="active gradient-border"><span>SMA kelas 1,2 <br> Reguler</span></div>
-                    <div class="gradient-border"><span>SMA kelas 3 <br>Reguler</span></div>
-                    <div class="gradient-border"><span>SMA kelas 3 <br>UTBK</span></div>
+                    <div class="active gradient-border"><span>SMA kelas 10, 11 <br> Reguler</span></div>
+                    <div class="gradient-border"><span>SMA kelas 12 <br>Reguler</span></div>
+                    <div class="gradient-border"><span>SMA kelas 12 <br>UTBK</span></div>
                     <!-- <div class="gradient-border"><span>WordPress</span></div> -->
                   </div>
                 </div>
                 <div class="col-lg-9">
                   <ul class="nacc">
                     <li class="active">
-                      <div>
-                        <div class="left-image">
-                          <img src="<?=base_url('assets/') ?>images/les privat 12.png" alt="">
+                      <div class="row p-5">
+                        <div class="col-6">
+                          <img src="<?=base_url('assets/') ?>images/les privat 11,12.png" alt="">
                           <!-- <div class="price"><h6>$128</h6></div> -->
                         </div>
-                        <div class="right-content">
-                          <h4>Les Privat Kelas 1, 2 SMA</h4>
+                        <div class="col-6">
+                          <h4>Les Privat Kelas 10, 11 SMA</h4>
                           <p>Tersedia online dan offline <em>(offline khusus daerah Yogyakarta)</em><br><br>Bimbel privat untuk bantu siswa mencapai goals belajar di kelas 1 atau 2 SMA seperti mengerjar pemahaman materi, latihan soal, mengerjakan PR dan tugas, persiapan ulangan harian, persiapan UTS dan UAS, perbaikan nilai untuk persiapan SNMPTN.</p>
                           <p>Fasilitas : <br>
                             *&nbsp;Tutor berkualitas (melalui seleksi dan development program)<br>
@@ -146,13 +163,13 @@ https://templatemo.com/tm-573-eduwell
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="left-image">
-                          <img src="<?=base_url('assets/') ?>images/les privat 3.png" alt="">
+                      <div class="row p-5">
+                        <div class="col-6">
+                          <img src="<?=base_url('assets/') ?>images/les privat 12.png" alt="">
                           <!-- <div class="price"><h6>$156</h6></div> -->
                         </div>
-                        <div class="right-content">
-                          <h4>Les Privat Kelas 3 SMA</h4>
+                        <div class="col-6">
+                          <h4>Les Privat Kelas 12 SMA</h4>
                           <p>Tersedia online dan offline <em>(offline khusus daerah Yogyakarta)</em></p>
                           <p>Bimbel privat untuk bantu siswa mencapai goals belajar di kelas 3 SMA seperti mengerja pemahaman materi, latihan soal, mengerjakan PR dan tugas, persiapan ulangan harian, persiapan UTS dan UAS, perbaikan nilai untuk persiapan SNMPTN.</p>
                           <p>Fasilitas :<br>
@@ -168,12 +185,12 @@ https://templatemo.com/tm-573-eduwell
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="left-image">
+                    <div class="row p-5">
+                        <div class="col-6">
                           <img src="<?=base_url('assets/') ?>images/les privat 3 utbk.png" alt="">
                           <!-- <div class="price"><h6>$184</h6></div> -->
                         </div>
-                        <div class="right-content">
+                        <div class="col-6">
                           <h4>Les Privat UTBK 2023</h4>
                           <p>Tersedia online dan offline <em>(offline khusus daerah Yogyakarta)</em></p>
                           <p>Bimbel privat untuk bantu siswa LOLOS UTBK 2023. Bimbel Bimbel Privat dengan pembelajaran terstruktur mulai dengan pendalaman materi, latihan soal UTBK, hingga Tryout UTBK 2023 dengan sistem IRT.</p>
@@ -327,7 +344,7 @@ https://templatemo.com/tm-573-eduwell
         <div class="col-lg-5 align-self-center">
           <h4>Dapatkan akses ke Bank Soal <em>Widya Edu</em></h4><br>
           <h6>dengan mendaftar bimbel privat di Widya Edu.</h6>
-          <p> - Lengkap untuk kelas 1, 2, 3 SMA <br>
+          <p> - Lengkap untuk kelas 10, 11, 12 SMA <br>
               - Mapel Saintek dan Soshum <br>
               - Terdapat bank soal khusus untuk UTBK
           </p>
