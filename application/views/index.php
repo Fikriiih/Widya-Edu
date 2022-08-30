@@ -79,7 +79,7 @@ https://templatemo.com/tm-573-eduwell
                                   <li><a href="contact-us.html">Contact Us</a></li>
                               </ul>
                           </li> -->
-                          <li class="main-buttonn a"><a target="_blank" href="https://api.whatsapp.com/send?phone=6282282677722">Hubungi Kami</a></li> 
+                          <li class="main-buttonn a"><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282282677722&text=Halo%20kak,%20Saya%20tertarik%20mendaftar%20Private%20Tutor%20Widya%20Edu&type=phone_number&app_absent=0">Hubungi Kami</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -102,7 +102,7 @@ https://templatemo.com/tm-573-eduwell
             <h2>Belajar semudah itu, bersama tutor  <em>Widya Edu!</em></h2>
             <p>Bimbel privat SMA dengan tutor berkualitas dan strategi belajar sesuai dengan goals dan kebutuhanmu.</p><br>
             <div class="main-button-gradient">
-              <div><a target="_blank" href="https://api.whatsapp.com/send?phone=6282282677722">Bergabung Sekarang!</a></div>
+              <div><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282282677722&text=Halo%20kak,%20Saya%20tertarik%20mendaftar%20Private%20Tutor%20Widya%20Edu&type=phone_number&app_absent=0">Bergabung Sekarang!</a></div>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ https://templatemo.com/tm-573-eduwell
                             *&nbsp;Metode personalized learning (yaitu implementasi strategi belajar berdasarkan goals belajar siswa, kemampuan siswa saat ini, dan gaya belajarnya)
                           </p>
                           <div class="main-button-gradient"><br>
-                            <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Beli Sekarang</a>
+                            <a href="https://api.whatsapp.com/send/?phone=6282282677722&text=Halo%20kak,%20Saya%20tertarik%20mendaftar%20Private%20Tutor%20Widya%20Edu&type=phone_number&app_absent=0" target="_blank">Beli Sekarang</a>
                           </div>
                         </div>
                       </div>
@@ -165,7 +165,7 @@ https://templatemo.com/tm-573-eduwell
                     <li>
                       <div class="row p-5">
                         <div class="col-6">
-                          <img src="<?=base_url('assets/') ?>images/les privat 12.png" alt="">
+                          <img src="<?=base_url('assets/') ?>images/les privat 3 utbk.png" alt="">
                           <!-- <div class="price"><h6>$156</h6></div> -->
                         </div>
                         <div class="col-6">
@@ -179,7 +179,7 @@ https://templatemo.com/tm-573-eduwell
                             *&nbsp;Metode personalized learning (yaitu implementasi strategi belajar berdasarkan goals belajar siswa, kemampuan siswa saat ini, dan gaya belajarnya)<br>
                             *&nbsp;Latihan soal UTBK dan pembahasan di aplikasi</p>
                           <div class="main-button-gradient"><br>
-                            <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Subscribe Course</a>
+                            <a href="https://api.whatsapp.com/send/?phone=6282282677722&text=Halo%20kak,%20Saya%20tertarik%20mendaftar%20Private%20Tutor%20Widya%20Edu&type=phone_number&app_absent=0" target="_blank">Subscribe Course</a>
                           </div>
                         </div>
                       </div>
@@ -202,7 +202,7 @@ https://templatemo.com/tm-573-eduwell
                             *&nbsp;Latihan soal UTBK dan pembahasan di aplikasi <br>
                             *&nbsp;Tryout UTBK 2023 dengan sistem IRT</p>
                           <div class="main-button-gradient"> <br>
-                            <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Subscribe Course</a>
+                            <a href="https://api.whatsapp.com/send/?phone=6282282677722&text=Halo%20kak,%20Saya%20tertarik%20mendaftar%20Private%20Tutor%20Widya%20Edu&type=phone_number&app_absent=0" target="_blank">Subscribe Course</a>
                           </div>
                         </div>
                       </div>
@@ -333,7 +333,7 @@ https://templatemo.com/tm-573-eduwell
     </div>
   </section> 
 
-  <section class="simple-cta" id="bank">
+  <!-- <section class="simple-cta" id="bank">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 offset-lg-1">
@@ -354,7 +354,7 @@ https://templatemo.com/tm-573-eduwell
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="testimonials" id="testimonials">
     <div class="container">
@@ -456,7 +456,7 @@ https://templatemo.com/tm-573-eduwell
                             <a href="contact-us.html">Subscribe Course</a>
                           </div> -->
               <div class="main-button-gradient">
-                  <a href="https://api.whatsapp.com/send?phone=6282282677722" target="_blank">Kirim Pesan</a>
+                  <a href="https://api.whatsapp.com/send/?phone=6282282677722&text=Halo%20kak,%20Saya%20tertarik%20mendaftar%20Private%20Tutor%20Widya%20Edu&type=phone_number&app_absent=0" target="_blank">Kirim Pesan</a>
               </div>
             </div>
           </form>
